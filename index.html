@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<!-- 文字コード！-->
+	<meta charset="utf-8">
+
+	<!-- スタイルシート -->
+	<link rel="stylesheet" href="style.css" media="all">
+
+	<!-- slikの読み込み -->
+	<link rel="stylesheet" href="slick/slick.css" media="all">
+	<link rel="stylesheet" href="slick/slick-theme.css"> 
+
+	<!-- smooth-scroll.min.js を読み込む -->
+	<script src="smooth-scroll.min.js"></script>
+
+
+	<!-- jqueryのCDN -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/
+	1.12.4/jquery.min.js"></script>
+
+	<!-- slikの読み込み（jqueryの下に書く） -->
+	<script src="slick/slick.min.js"></script>
+  
+  <script type="text/javascript">
+    $(function(){
+      $('.slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 800,
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <div class="slider">
+    <img href="images/_DSC7607.JPG">
+    <img href="images/_DSC7608.JPG"
+  </div>
+
+</body>
+</html>
